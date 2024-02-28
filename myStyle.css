@@ -1,0 +1,97 @@
+p{
+	color:black;
+	text-align:center;	
+}
+body{
+	background-color:gainsboro;
+	font-family:Georgia;
+}
+h1{
+	text-align: center;	
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+h2{
+	text-align: center;	
+}
+h3{
+	text-align: center;	
+	text-shadow: 2px 2px 5px grey;
+}
+h4{
+	text-align: center;	
+	color: #4B0082;
+	text-shadow: 2px 2px 4px white;
+}
+.jump:hover{
+	font-size:200%
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.skills div, .language div{
+	border:1px #ccc solid;
+	padding:10px;
+}
+@media(min-width:700px){
+	.skills{
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:space-around;
+	}
+	.language{
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:space-around;
+	}
+	.column1{
+		flex:1;
+		order:1;
+		width:20%;
+	}
+	.column2{
+		flex:1;
+		order:2;
+		width:20%;
+	}
+	.column3{
+		flex:1;
+		order:3;
+		width:20%;
+	}
+	.languagecolumn1{
+		flex:1;
+		order:1;
+	}
+	.languagecolumn2{
+		flex:1;
+		order:2;
+	}
+}
+div.education{
+	text-align: center;
+}
+ul{
+	list-style-type: none;
+	text-align: center;	
+}
+ul.a{
+	list-style-type: circle;
+	list-style-position: inside;
+	display: inline-block;
+	text-align: left;
+}
+ul.b{
+	list-style-type: square;
+	list-style-position: inside;
+	display: inline-block;
+	text-align: left;
+}
+ul.c{
+	list-style-type: disc;
+	list-style-position: inside;
+	display: inline-block;
+	text-align: left;
+}
